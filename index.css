@@ -30,6 +30,20 @@ html, body {
 #myimage {
   width: 70vw;
 }
+#mybutton {
+ width: 50px;
+ height: 50px; 
+ background-color: #c2d1f0;
+ border: 3px solid #4775d1;
+ border-radius: 50%;
+ color: #4775d1;
+ font-weight: bold;
+}
+#mybutton:hover, #mybutton:active { 
+ background-color: #99b3e6;
+ border: 3px solid #2952a3;
+ color: #2952a3;
+}
 
 /* the links */ 
 body, .links li, .links a {
