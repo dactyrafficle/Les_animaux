@@ -1,0 +1,48 @@
+html, body {
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+/* to center vertically */
+.outer {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+#main {
+  display: table;
+  margin: 0 auto;
+}
+.mytables {
+  border-collapse: collapse;
+}
+.mytables td {
+  border: 1px solid #ddd;
+  padding: 1vh;
+  width: 30vw;
+}
+#myimage {
+  width: 70vw;
+}
+
+/* the links */ 
+body, .links li, .links a {
+  font-family: 'Abel', Trebuchet MS, Helvetica, sans-serif;
+  color: rgb(50, 50, 50);
+}
+.links li {
+  margin-left: 80px;
+  line-height: 35px;
+}
+.links a {
+  text-decoration: none;
+}
+
+
+

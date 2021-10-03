@@ -1,0 +1,15 @@
+[
+
+{"name_fr":"abeille","name_en":"bee","img_src":"dmitry-grigoriev-yxXpjF-RrnA-unsplash.jpg","img_attribution":"Photo by Dmitry Grigoriev on Unsplash","desc_en":"Most bees work long hours and lack union representation.","desc_fr":"La plupart des abeilles travaillent de longues heures et manquent de représentation syndicale."},
+{"name_fr":"aigle ","name_en":"eagle","img_src":"mathew-schwartz-OjQgsR1oyEw-unsplash.jpg","img_attribution":"Photo by Mathew Schwartz on Unsplash","desc_en":"This eagle's parents want him to become a doctor; he flies in solitude and contemplates his future.","desc_fr":"Les parents de cet aigle veulent qu'il devienne médecin ; il vole dans la solitude et contemple son avenir."},
+{"name_fr":"araignee","name_en":"spider","img_src":"ed-van-duijn-UUdJ-0LQs0M-unsplash.jpg","img_attribution":"Photo by Ed van duijn on Unsplash","desc_en":"Despite his many legs, this spider pursues a career in ballet.","desc_fr":"Malgré ses nombreuses pattes, cette araignée poursuit une carrière dans le ballet."},
+
+{"name_fr":"raton laveur","name_en":"racoon","img_src":"moritz-kindler-24VowUjS7Jk-unsplash.jpg","img_attribution":"Photo by Moritz Kindler on Unsplash","desc_en":"The racoon uses its formidable intelligence to find and eat garbage.","desc_fr":"Le raton laveur utilise sa formidable intelligence pour trouver et manger des ordures."},
+{"name_fr":"renard","name_en":"fox","img_src":"dusan-veverkolog-nOsJYzXEG98-unsplash.jpg","img_attribution":"Photo by Dušan veverkolog on Unsplash","desc_en":"The measure of this fox can be taken in liters.","desc_fr":"La mesure de ce renard peut être prise en litres."},
+{"name_fr":"requin","name_en":"shark","img_src":"gerald-schombs-GBDkr3k96DE-unsplash.jpg","img_attribution":"Photo by Gerald Schömbs on Unsplash","desc_en":"This shark lacks confidence; he ponders his life choices.","desc_fr":"Ce requin manque de confiance ; il réfléchit à ses choix de vie."},
+
+{"name_fr":"tortue ","name_en":"turtle","img_src":"david-cadenas-VFTq3si9YVw-unsplash.jpg","img_attribution":"Photo by David Cadenas on Unsplash","desc_en":"This turtle appears to be yelling at the photographer.","desc_fr":"Cette tortue semble crier sur le photographe."},
+{"name_fr":"vache","name_en":"cow","img_src":"luke-stackpoole-RxHhxWnXmNs-unsplash.jpg","img_attribution":"Photo by Luke Stackpoole on Unsplash","desc_en":"Most cows cannot perform long division.","desc_fr":"La plupart des vaches savent pas faire une division longue."}
+
+
+]
