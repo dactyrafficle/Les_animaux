@@ -8,12 +8,18 @@ let desc_en;
 let desc_fr;
 let current_row_id = -1;
 let count = 0;
+let arr;
 
 window.onload = function() {
   
-  let data = fetch('les_animaux.json?x=' + Math.random()).then(r => r.json()).then(arr => {
+  let data = fetch('les_animaux.json?x=' + Math.random()).then(r => r.json()).then(a => {
      
-     console.log(arr);
+     
+     arr = [[],[]];
+     for (let i = 0; i < a.length; i++) {
+       arr[0].push(a[i]);
+     }
+
      mytable = document.getElementById('mytable');
      mybutton = document.getElementById('mybutton');
      myimage = document.getElementById('myimage');
@@ -31,29 +37,21 @@ window.onload = function() {
   });
   
   function getRow(arr) {
-    let x = Math.floor(Math.random()*arr.length);
     
-    if (x !== current_row_id) {
-      console.log(count + ' : ' + x);
-      count++;
-      current_row_id = x;
-      return arr[x];
-    } else {
-    
-      while (x === current_row_id) {
-        x = Math.floor(Math.random()*arr.length);
-        
-        if (x !== current_row_id) {
-          current_row_id = x;
-          count++;
-          console.log(count + ' : ' + current_row_id);
-          return arr[current_row_id];  
-        }
-        
-      }
+    if (arr[0].length === 0) {
+      let x = arr.splice(0, 1); // remove the arr[0]
+      arr.push([]);
+      console.log('**reset**');
+      // console.log(arr);
     }
+    
+    let x = Math.floor(Math.random()*arr[0].length);
+    let obj = arr[0].splice(x, 1)[0];
+    arr[1].push(obj);
+    // console.log(arr);
+    return obj;
 
-  
+
   }
 
   function displayRow(row) {
