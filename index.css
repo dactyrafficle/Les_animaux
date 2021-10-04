@@ -7,6 +7,7 @@ html, body {
 }
 
 /* to center vertically */
+
 .outer {
   display: table;
   height: 100%;
@@ -16,6 +17,7 @@ html, body {
   display: table-cell;
   vertical-align: middle;
 }
+
 #main {
   display: table;
   margin: 0 auto;
@@ -26,10 +28,16 @@ html, body {
 .mytables td {
   border: 1px solid #ddd;
   padding: 1vh;
-  width: 30vw;
+  width: 35vw;
+}
+#img-container {
+ height: 70vw;
 }
 #myimage {
-  width: 70vw;
+  display: block;
+  margin: 0 auto;
+  width: 65vw;
+  max-height: 65vw;
 }
 #mybutton {
  width: 60px;
