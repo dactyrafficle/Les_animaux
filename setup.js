@@ -6,6 +6,8 @@ let englishName;
 let frenchName;
 let desc_en;
 let desc_fr;
+let current_row_id = -1;
+let count = 0;
 
 window.onload = function() {
   
@@ -30,7 +32,28 @@ window.onload = function() {
   
   function getRow(arr) {
     let x = Math.floor(Math.random()*arr.length);
-    return arr[x];
+    
+    if (x !== current_row_id) {
+      console.log(count + ' : ' + x);
+      count++;
+      current_row_id = x;
+      return arr[x];
+    } else {
+    
+      while (x === current_row_id) {
+        x = Math.floor(Math.random()*arr.length);
+        
+        if (x !== current_row_id) {
+          current_row_id = x;
+          count++;
+          console.log(count + ' : ' + current_row_id);
+          return arr[current_row_id];  
+        }
+        
+      }
+    }
+
+  
   }
 
   function displayRow(row) {
