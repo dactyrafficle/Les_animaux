@@ -23,8 +23,8 @@ window.onload = function() {
      mytable = document.getElementById('mytable');
      mybutton = document.getElementById('mybutton');
      myimage = document.getElementById('myimage');
-     englishName = document.getElementById('english-name');
-     frenchName = document.getElementById('french-name');
+     englishName = document.getElementById('name_en');
+     frenchName = document.getElementById('name_fr');
      desc_en = document.getElementById('desc_en');
      desc_fr = document.getElementById('desc_fr');
      
@@ -38,6 +38,8 @@ window.onload = function() {
   
   function getRow(arr) {
     
+    //console.log(arr);
+    
     if (arr[0].length === 0) {
       let x = arr.splice(0, 1); // remove the arr[0]
       arr.push([]);
@@ -45,10 +47,12 @@ window.onload = function() {
       // console.log(arr);
     }
     
+    // console.log(arr); // what we select from
+    
     let x = Math.floor(Math.random()*arr[0].length);
     let obj = arr[0].splice(x, 1)[0];
     arr[1].push(obj);
-    // console.log(arr);
+    console.log(arr); // what remains after the selection
     return obj;
 
 
