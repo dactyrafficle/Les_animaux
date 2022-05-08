@@ -2,7 +2,7 @@
 a little scramble
 
 
-https://dactyrafficle.github.io/les_animaux/
+https://dactyrafficle.github.io/Les_animaux/
 
 
 when i convert the excel range to a json object, it comes out ANSI

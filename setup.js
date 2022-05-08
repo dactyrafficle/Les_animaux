@@ -1,4 +1,19 @@
 
+// preserve the dimensions of the image
+// there is a max width
+// and there is a max height
+
+// there is an absolte max (in terms of pixels)
+// and a relative max (in terms of window.innerWidth and window.innerHeight
+
+// the table will thus be the max size that window.innerWidth and window.innerHeight AND its max constraints will allow
+
+// that way, when we transition from one picture to the next, nothing changes
+
+
+// maybe i can do it all absolute positioning
+
+
 let mytable;
 let mybutton;
 let myimage;
@@ -9,24 +24,27 @@ let desc_fr;
 let current_row_id = -1;
 let count = 0;
 let arr;
-
-window.onload = function() {
+ 
+window.addEventListener('load', function() {
   
+  mytable = document.getElementById('mytable');
+  mybutton = document.getElementById('mybutton');
+  myimage = document.getElementById('myimage');
+  englishName = document.getElementById('name_en');
+  frenchName = document.getElementById('name_fr');
+  desc_en = document.getElementById('desc_en');
+  desc_fr = document.getElementById('desc_fr');
+     
   let data = fetch('les_animaux.json?x=' + Math.random()).then(r => r.json()).then(a => {
      
+     console.log(a);
      
      arr = [[],[]];
      for (let i = 0; i < a.length; i++) {
        arr[0].push(a[i]);
      }
 
-     mytable = document.getElementById('mytable');
-     mybutton = document.getElementById('mybutton');
-     myimage = document.getElementById('myimage');
-     englishName = document.getElementById('name_en');
-     frenchName = document.getElementById('name_fr');
-     desc_en = document.getElementById('desc_en');
-     desc_fr = document.getElementById('desc_fr');
+
      
      mybutton.addEventListener('click', function() {
        displayRow(getRow(arr));
@@ -69,11 +87,5 @@ window.onload = function() {
     desc_en.innerHTML = row["desc_en"];
     desc_fr.innerHTML = row["desc_fr"];
   }
-}
 
-
-
-   
-   
-   
-
+}); // closing window.onload

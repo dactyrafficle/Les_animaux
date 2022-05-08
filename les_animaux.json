@@ -5,7 +5,7 @@
   "img_src":"dmitry-grigoriev-yxXpjF-RrnA-unsplash.jpg",
   "img_attribution":"Photo by Dmitry Grigoriev on Unsplash",
   "desc_en":"Most bees work hard for the colony, but without union representation.",
-  "desc_fr":"La plupart des abeilles travaillent dur pour la colonie, mais sans étre reprÃ©sentées par un syndicat professionnel."
+  "desc_fr":"La plupart des abeilles travaillent dur pour la colonie, mais sans être représentées par un syndicat professionnel."
  },
  {
   "name_fr":"un aigle ",
@@ -48,40 +48,40 @@
   "desc_fr":"Ce requin manque de confiance en soi. Il réfléchit à son choix de vie."
  },
  {
-  "name_fr":"tortue ",
-  "name_en":"turtle",
+  "name_fr":"une tortue",
+  "name_en":"a turtle",
   "img_src":"david-cadenas-VFTq3si9YVw-unsplash.jpg",
   "img_attribution":"Photo by David Cadenas on Unsplash",
   "desc_en":"This turtle has just learned Russian.",
   "desc_fr":"Cette tortue vient d'apprendre le russe."
  },
  {
-  "name_fr":"vache",
-  "name_en":"cow",
+  "name_fr":"une vache",
+  "name_en":"a cow",
   "img_src":"luke-stackpoole-RxHhxWnXmNs-unsplash.jpg",
   "img_attribution":"Photo by Luke Stackpoole on Unsplash",
   "desc_en":"Most cows cannot perform long division. But this cow knows what it is to be underestimated. Beware.",
   "desc_fr":"La plupart des vaches ne peuvent pas effectuer une division longue. Mais cette vache sait bien qu'elle a été sous-estimée. Il faut se méfier."
  },
  {
-  "name_fr":"singe",
-  "name_en":"monkey",
+  "name_fr":"un singe",
+  "name_en":"a monkey",
   "img_src":"andre-mouton-GBEHjsPQbEQ-unsplash.jpg",
   "img_attribution":"Photo by Andre Mouton on Unsplash",
   "desc_en":"This monkey examines his reflection. He ponders his place in the world and resolves to find meaning.",
   "desc_fr":"Ce singe examine son reflet. Il réfléchit à sa place dans le monde et s'engage à faire trouver un sens."
  },
  {
-  "name_fr":"canard",
-  "name_en":"duck",
+  "name_fr":"un canard",
+  "name_en":"a duck",
   "img_src":"fredrik-solli-wandem-WVcV-C0jELw-unsplash.jpg",
   "img_attribution":"Photo by Fredrik Solli Wandem on Unsplash",
   "desc_en":"With malice in his heart, this duck plots revenge",
   "desc_fr":"Avec malveillance dans sa coeur, ce canard se prépare à se venger."
  },
  {
-  "name_fr":"cerf",
-  "name_en":"deer",
+  "name_fr":"un cerf",
+  "name_en":"a deer",
   "img_src":"siska-vrijburg-AjyF1e_AGmc-unsplash.jpg",
   "img_attribution":"Photo by Siska Vrijburg on Unsplash",
   "desc_en":"This deer has been watching you all morning, from afar. What are her intentions?",
@@ -109,7 +109,7 @@
   "img_src":"goldfish.png",
   "img_attribution":"idk!",
   "desc_en":"With deathlike indifference, his eyes vacant glass, this goldfish documents what you have yet to recognize.",
-  "desc_fr":"Avec une indifférence mortelle, ses yeux, vides, vacant, verre et vitreux, ce poisson rouge documente ce que tu n'as pas encore reconnu."
+  "desc_fr":"Avec une indifférence semblable à la mort, le regarde vide et vitreux, ce poisson rouge documente ce que tu n'as pas encore reconnu."
  },
  {
   "name_fr":"saumon",
